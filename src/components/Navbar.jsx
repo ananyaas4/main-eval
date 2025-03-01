@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <h1>My Library</h1>
-      <div>
+      <div className="nav-links">
         <Link to="/">Home</Link>
         {user && <Link to="/mybooks">My Books</Link>}
         {user ? (
