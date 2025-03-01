@@ -1,0 +1,13 @@
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.loading {
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+}

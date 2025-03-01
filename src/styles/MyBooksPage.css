@@ -1,0 +1,10 @@
+.my-books-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.my-books-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
